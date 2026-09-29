@@ -80,11 +80,11 @@ border-radius: 8px;
 <h3>🏀 籃球賽事與社團活動照片</h3>
 <div class="photo-gallery">
 <div class="photo-item">
-<img src="/static/images/basketball-players-big-professional-w.jpg" alt="籃球比賽">
+<img src="{{ url_for('static', filename='images/basketball-players-big-professional-arena-game.jpg') }}" alt="籃球比賽">
 <p>校際籃球錦標賽精彩瞬間</p>
 </div>
 <div class="photo-item">
-<img src="/static/images/friends-enjoying-their-life-offline (1).jpg" alt="籃球練習">
+<img src="{{ url_for('static', filename='images/friends-enjoying-their-life-offline (1).jpg') }}" alt="籃球練習">
 <p>戶外籃球練習與交流</p>
 </div>
 </div>
@@ -105,7 +105,7 @@ border-radius: 8px;
 <!-- QR Code 顯示區塊 -->
 <div class="qr-box">
 <p style="font-size: 14px; color: #666; margin-bottom: 5px;">掃描 QR Code 造訪本站：</p>
-<img src="/static/images/qr_code.jpg" alt="QR Code">
+<img src="{{ url_for('static', filename='images/qr_code.jpg') }}" alt="QR Code">
 </div>
 </div>
 </section>
